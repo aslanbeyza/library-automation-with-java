@@ -1,0 +1,1 @@
+SELECT * FROM Personel JOIN Kullanici ON Personel.KullaniciID = Kullanici.KullaniciID WHERE Personel.KullaniciID = ?;

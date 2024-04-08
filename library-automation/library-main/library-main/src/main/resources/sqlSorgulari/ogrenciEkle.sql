@@ -1,0 +1,1 @@
+INSERT INTO Ogrenci (KullaniciID, KayitYili, Bolum) VALUES (?, ?, ?);

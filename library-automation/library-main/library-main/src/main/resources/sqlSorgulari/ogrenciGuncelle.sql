@@ -1,0 +1,1 @@
+UPDATE Ogrenci SET KayitYili = ?, Bolum = ? WHERE OgrenciID = ?;

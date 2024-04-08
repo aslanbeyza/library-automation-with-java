@@ -1,0 +1,1 @@
+SELECT * FROM OgretimUyesi JOIN Kullanici ON OgretimUyesi.KullaniciID = Kullanici.KullaniciID WHERE OgretimUyesi.KullaniciID = ?;

@@ -1,0 +1,1 @@
+SELECT OgretimUyesi.OgretimUyesiID, Kullanici.KullaniciAdi, Kullanici.Ad, Kullanici.Soyad, OgretimUyesi.Bolum, OgretimUyesi.Unvan FROM OgretimUyesi INNER JOIN Kullanici ON OgretimUyesi.OgretimUyesiID = Kullanici.KullaniciID;

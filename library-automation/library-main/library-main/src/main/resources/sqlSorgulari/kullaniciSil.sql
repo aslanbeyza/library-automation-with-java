@@ -1,0 +1,1 @@
+DELETE FROM Kullanici WHERE KullaniciID = ?;

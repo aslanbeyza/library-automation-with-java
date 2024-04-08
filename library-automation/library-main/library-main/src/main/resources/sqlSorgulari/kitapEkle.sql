@@ -1,0 +1,1 @@
+INSERT INTO Kitap (Baslik, Yazar, Tur, Konu, OduncVerildi, Puan, Durum) VALUES (?, ?, ?, ?, ?, ?, ?);

@@ -1,0 +1,1 @@
+UPDATE OgretimUyesi SET Bolum = ?, Unvan = ? WHERE OgretimUyesiID = ?;

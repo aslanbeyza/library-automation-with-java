@@ -1,0 +1,1 @@
+UPDATE Kullanici SET KullaniciAdi = ?, Parola = ?, Ad = ?, Soyad = ?, Email = ?, Tur = ? WHERE KullaniciID = ?;

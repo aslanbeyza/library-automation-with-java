@@ -1,0 +1,1 @@
+DELETE FROM Kitap WHERE KitapID = ?;

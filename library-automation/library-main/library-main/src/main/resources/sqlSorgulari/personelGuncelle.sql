@@ -1,0 +1,1 @@
+UPDATE Personel SET Pozisyon = ? WHERE PersonelID = ?;

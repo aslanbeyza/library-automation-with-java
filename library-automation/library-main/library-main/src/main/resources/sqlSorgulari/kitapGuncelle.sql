@@ -1,0 +1,1 @@
+UPDATE Kitap SET Baslik = ?, Yazar = ?, Tur = ?, Konu = ?, OduncVerildi = ?, Puan = ?, Durum = ? WHERE KitapID = ?;

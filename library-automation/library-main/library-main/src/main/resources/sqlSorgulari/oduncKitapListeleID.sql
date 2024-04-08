@@ -1,0 +1,1 @@
+SELECT Kitap.KitapID, Kitap.Baslik, Kitap.Yazar, Kitap.Tur, Kitap.Konu,  Kitap.Durum, Kitap.Puan, Kitap.OduncVerildi, OduncKitap.OduncID, OduncKitap.OduncTarihi, OduncKitap.IadeTarihi, OduncKitap.Durum AS OduncDurum FROM Kitap INNER JOIN OduncKitap ON Kitap.KitapID = OduncKitap.KitapID WHERE OduncKitap.KullaniciID = ?;
